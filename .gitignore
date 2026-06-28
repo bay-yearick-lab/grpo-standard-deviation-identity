@@ -1,0 +1,41 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# uv-managed env: keep uv.lock; ignore the local interpreter pin.
+.python-version
+
+# Build artifacts
+build/
+arxiv-submission.tar.gz
+
+# Data: ignore the Hugging Face cache and the third-party DAPO source files.
+# Only the project's own digitized DAPO curve ships (make_figures.py needs it);
+# re-running scripts/digitize_dapo.py requires the released DAPO PDF
+# (arXiv:2503.14476), which is not redistributed here.
+data/*
+!data/dapo/
+data/dapo/*
+!data/dapo/dapo_fig3b_accuracy1_fraction.csv
+
+# Rasterized QA previews (source figures are committed as PDFs)
+paper/figures/*.png
+paper/*.png
+
+# LaTeX aux. main.pdf and main.bbl are intentionally tracked so paper/ is a
+# self-contained arXiv source.
+paper/*.aux
+paper/*.bcf
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.run.xml
+paper/*.synctex.gz
+paper/*.toc
+
+.DS_Store
