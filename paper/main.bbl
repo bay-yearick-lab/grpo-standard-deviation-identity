@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -79,6 +79,22 @@ Arash Ahmadian, Chris Cremer, Matthias Gall{\'e}, Marzieh Fadaee, Julia
 Wouter Kool, Herke van Hoof, and Max Welling.
 \newblock Buy 4 {REINFORCE} samples, get a baseline for free!
 \newblock \emph{ICLR Deep RL Meets Structured Prediction Workshop}, 2019.
+
+\bibitem[Nie et~al.(2026)Nie, Wu, Liu, Li, Lin, Zhang, Fan, Zheng, and
+  Jang]{nie2026gradient}
+Wenhua Nie, Jianan Wu, Junlin Liu, Ziwei Li, Zheng Lin, Zijian Zhang, Yilong
+  Fan, Haoran Zheng, and Jyh-Shing~Roger Jang.
+\newblock Gradient starvation in binary-reward {GRPO}: Why group-mean centering
+  fails and why the simplest fix works.
+\newblock \emph{arXiv preprint arXiv:2605.07689}, 2026.
+
+\bibitem[Wu et~al.(2025)Wu, Ma, Ding, Li, Wang, Chen, Su, Zhang, Huang, Zhang,
+  Coates, and Nie]{wu2025grpodpo}
+Yihong Wu, Liheng Ma, Lei Ding, Muzhi Li, Xinyu Wang, Kejia Chen, Zhan Su,
+  Zhanguang Zhang, Chenyang Huang, Yingxue Zhang, Mark Coates, and Jian-Yun
+  Nie.
+\newblock It takes two: Your {GRPO} is secretly {DPO}.
+\newblock \emph{arXiv preprint arXiv:2510.00977}, 2025.
 
 \bibitem[Sullivan and Koller(2025)]{grpoprm2025}
 Michael Sullivan and Alexander Koller.
