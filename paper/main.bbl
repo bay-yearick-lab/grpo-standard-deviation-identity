@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -73,12 +73,18 @@ Arash Ahmadian, Chris Cremer, Matthias Gall{\'e}, Marzieh Fadaee, Julia
 \newblock Back to basics: Revisiting {REINFORCE}-style optimization for
   learning from human feedback in {LLMs}.
 \newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
-  for Computational Linguistics (ACL)}, 2024.
+  for Computational Linguistics (ACL)}, pages 12248--12267, 2024.
 
 \bibitem[Kool et~al.(2019)Kool, van Hoof, and Welling]{kool2019buy}
 Wouter Kool, Herke van Hoof, and Max Welling.
 \newblock Buy 4 {REINFORCE} samples, get a baseline for free!
 \newblock \emph{ICLR Deep RL Meets Structured Prediction Workshop}, 2019.
+
+\bibitem[Bay and Yearick(2026{\natexlab{a}})]{bay2026ceilings}
+Yong~Yi Bay and Kathleen~A. Yearick.
+\newblock When more sampling hurts: The modal ceiling and correlation ceiling
+  of test-time scaling.
+\newblock \emph{arXiv preprint arXiv:2606.28661}, 2026{\natexlab{a}}.
 
 \bibitem[Nie et~al.(2026)Nie, Wu, Liu, Li, Lin, Zhang, Fan, Zheng, and
   Jang]{nie2026gradient}
@@ -119,7 +125,7 @@ Jianghan Shen, Siqi Luo, Yue Li, Jiyao Liu, Wanying Qu, Yi~Zhang, Ziyan Huang,
 Omer Levy and Yoav Goldberg.
 \newblock Neural word embedding as implicit matrix factorization.
 \newblock In \emph{Advances in Neural Information Processing Systems
-  (NeurIPS)}, volume~27, 2014.
+  (NeurIPS)}, volume~27, pages 2177--2185, 2014.
 
 \bibitem[Mikolov et~al.(2013)Mikolov, Chen, Corrado, and
   Dean]{mikolov2013word2vec}
@@ -127,11 +133,11 @@ Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
 \newblock Efficient estimation of word representations in vector space.
 \newblock \emph{arXiv preprint arXiv:1301.3781}, 2013.
 
-\bibitem[Bay and Yearick(2026)]{bay2026kore}
+\bibitem[Bay and Yearick(2026{\natexlab{b}})]{bay2026kore}
 Yong~Yi Bay and Kathleen~A. Yearick.
 \newblock Solve for the hyperparameter, skip the search: {Kolmogorov}-optimal
   scaling laws for spline regression.
-\newblock \emph{arXiv preprint arXiv:2606.23575}, 2026.
+\newblock \emph{arXiv preprint arXiv:2606.23575}, 2026{\natexlab{b}}.
 
 \bibitem[Bay and Yearick(2024)]{bay2024generalization}
 Yong~Yi Bay and Kathleen~A. Yearick.
