@@ -1,5 +1,7 @@
 cff-version: 1.2.0
 message: "If this note helps your work, please cite it."
+repository-code: "https://github.com/bay-yearick-lab/grpo-standard-deviation-identity"
+url: "https://github.com/bay-yearick-lab/grpo-standard-deviation-identity"
 title: "GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity"
 type: article
 authors:

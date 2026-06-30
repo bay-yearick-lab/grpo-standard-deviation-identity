@@ -17,5 +17,9 @@ dependencies = [
     "huggingface-hub>=0.24",
 ]
 
+[project.urls]
+Repository = "https://github.com/bay-yearick-lab/grpo-standard-deviation-identity"
+Homepage = "https://github.com/bay-yearick-lab/grpo-standard-deviation-identity"
+
 [tool.uv]
 package = false

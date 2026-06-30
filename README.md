@@ -79,6 +79,9 @@ gd.per_prompt_gradient(3, 8)        # 0.4841  -> this group's gradient gain
 ## Reproduce
 
 ```bash
+git clone https://github.com/bay-yearick-lab/grpo-standard-deviation-identity.git
+cd grpo-standard-deviation-identity
+
 uv run python scripts/checks.py             # numerical checks, incl. the general vector identity
 uv run python scripts/grpo_diagnostics.py   # the closed forms as an API + a worked cheat sheet
 uv run python scripts/experiment_dynamics.py# controlled GRPO run -> fig_experiment.pdf (CPU, no LLM)
