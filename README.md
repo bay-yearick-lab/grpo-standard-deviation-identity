@@ -2,6 +2,7 @@
   <h1 align="center">The Group-Standard-Deviation Identity</h1>
   <h3 align="center">GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number</h3>
   <p align="center">
+    <a href="https://arxiv.org/abs/2607.00152"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2607.00152-b31b1b.svg"></a>
     <a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
     <img alt="Python 3.12+" src="https://img.shields.io/badge/python-3.12-blue.svg">
   </p>
@@ -125,9 +126,13 @@ CC BY 4.0 ([paper/LICENSE](paper/LICENSE)).
 ## Citation
 
 ```bibtex
-@misc{bay2026grpostd,
-  title  = {GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity},
-  author = {Bay, Yong Yi and Yearick, Kathleen A.},
-  year   = {2026}
+@article{bay2026grpostd,
+  title         = {GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity},
+  author        = {Bay, Yong Yi and Yearick, Kathleen A.},
+  year          = {2026},
+  eprint        = {2607.00152},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.48550/arXiv.2607.00152}
 }
 ```

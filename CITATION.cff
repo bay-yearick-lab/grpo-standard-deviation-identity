@@ -22,3 +22,15 @@ keywords:
   - silent-group rate
   - reinforcement learning with verifiable rewards
   - LLM reasoning
+preferred-citation:
+  type: article
+  title: "GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity"
+  authors:
+    - family-names: Bay
+      given-names: Yong Yi
+    - family-names: Yearick
+      given-names: Kathleen A.
+  year: 2026
+  journal: "arXiv preprint arXiv:2607.00152"
+  doi: "10.48550/arXiv.2607.00152"
+  url: "https://arxiv.org/abs/2607.00152"
